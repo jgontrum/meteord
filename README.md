@@ -1,5 +1,5 @@
 ## MeteorD - Docker Runtime for Meteor Apps
-## Support for Meteor 1.4, based on Node 4.4.7!
+### Support for Meteor 1.4, based on Node 4.4.7!
 
 There are two main ways you can use Docker with Meteor apps. They are:
 
