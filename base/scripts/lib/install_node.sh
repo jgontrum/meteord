@@ -16,5 +16,5 @@ mv ${NODE_DIST} /opt/nodejs
 ln -sf /opt/nodejs/bin/node /usr/bin/node
 ln -sf /opt/nodejs/bin/npm /usr/bin/npm
 
-npm install -g node-gyp
+# npm install -g node-gyp
 
