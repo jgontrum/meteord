@@ -5,7 +5,7 @@ if [ -d /bundle ]; then
   tar xzf *.tar.gz
   cd /bundle/bundle/programs/server/
   npm install
-  rm -r ./npm/node_modules/meteor/npm-bcrypt/node_modules/bcrypt/
+  rm -r ./npm/node_modules/meteor/npm-bcrypt/node_modules/bcrypt/; true
   npm install bcrypt
   cd /bundle/bundle/
 elif [[ $BUNDLE_URL ]]; then
@@ -14,7 +14,7 @@ elif [[ $BUNDLE_URL ]]; then
   tar xzf bundle.tar.gz
   cd /tmp/bundle/programs/server/
   npm install
-  rm -r ./npm/node_modules/meteor/npm-bcrypt/node_modules/bcrypt/
+  rm -r ./npm/node_modules/meteor/npm-bcrypt/node_modules/bcrypt/; true
   npm install bcrypt
   cd /tmp/bundle/
 elif [ -d /built_app ]; then
